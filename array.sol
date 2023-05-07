@@ -10,6 +10,6 @@ contract ZombieFactory {
         uint dna;
     }
 
-    Zombie[] public zombies; //zombiden dizi tanımla ve ismi Zombies olsun.
+    Zombie[] public zombies; //Define  a array from Zombie struct and namr of array is zombies.
 
 }
