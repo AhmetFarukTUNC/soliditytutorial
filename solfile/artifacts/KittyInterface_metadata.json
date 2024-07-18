@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "getKitty",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "isGestating",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "isReady",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cooldownIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "nextActionAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "siringWithId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "birthTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "matronId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sireId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "generation",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "genes",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Desktop/solidity/solfile/zomfed.sol": "KittyInterface"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Desktop/solidity/solfile/ownable.sol": {
+			"keccak256": "0x9654bf2a12f238cde2cf1c540fe2964c90ec32f0e69b8d12bb195619521172d7",
+			"urls": [
+				"bzz-raw://a2c0469f8a865a52dd5f3d22e0a652af94fcdf14f8800558a06e3948f69bf3b5",
+				"dweb:/ipfs/QmYso2M2oKGPmVbRbDgD2JxN28pKJwYXwyKHZo5yP81yfG"
+			]
+		},
+		"Desktop/solidity/solfile/tu.sol": {
+			"keccak256": "0xf08cd042b3c8ceff2507227a315dd6f5b3cf7b1c5ce7a1d385042acd85e12a6c",
+			"urls": [
+				"bzz-raw://82dbfec31b675dcfac23bb86b814813b6dfc16362ccfa5539607230d7864ef3c",
+				"dweb:/ipfs/QmQGG54xtvQsvi68BmWVp5NVueVWH5J5ejrkbTcut7WdmT"
+			]
+		},
+		"Desktop/solidity/solfile/zomfed.sol": {
+			"keccak256": "0xee229e026e4c1a445114ca19e76d5d0c3212d3718e9bc89eebdcf4b9ba5817d9",
+			"urls": [
+				"bzz-raw://85f2236345a2e6022ac6c757a39bdcc9a820b3fa8a106cb5633e4dd5b01ab7e4",
+				"dweb:/ipfs/QmaSWPkaCxAaGuvJHhi6M83JuKZMaeQsi6oehR91itnJYR"
+			]
+		}
+	},
+	"version": 1
+}
