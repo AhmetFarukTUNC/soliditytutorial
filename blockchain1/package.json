@@ -11,6 +11,8 @@
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.2",
     "contract": "^0.1.2",
-    "truffle": "^5.11.5"
+    "truffle": "^5.11.5",
+    "truffle-contract": "^4.0.31",
+    "web3": "^4.11.0"
   }
 }
